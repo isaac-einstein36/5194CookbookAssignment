@@ -3,7 +3,7 @@
 Isaac Einstein
 
 Chapter 11 Cookbook Assignment:
-Recipe 10.11, Using a Raspberry Squid
+Recipe 11.11, Making a User Interface to Control PWM Power for LEDs and Motors
 
 Problem Statement:
 You want to make an application to run on the Raspberry Pi that has a slider to control power to a device using pulse-width modulation (PWM)
