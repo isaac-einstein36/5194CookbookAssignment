@@ -22,12 +22,13 @@ bluePin = 24
 # Create RGBLED object and set color pins
 led = RGBLED(red=redPin, green=greenPin, blue=bluePin)
 
-# Turn on LED and change color
-led.color = Color('red')
-sleep(2)
-led.color = Color('green')
-sleep(2)
-led.color = Color('blue')
-sleep(2)
-led.color = Color('white')
-sleep(2)
+while(True):
+        # Turn on LED and change color
+        led.color = Color('red')
+        sleep(2)
+        led.color = Color('green')
+        sleep(2)
+        led.color = Color('blue')
+        sleep(2)
+        led.color = Color('white')
+        sleep(2)
