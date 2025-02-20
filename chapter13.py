@@ -14,8 +14,8 @@ from gpiozero import Button, DigitalOutputDevice
 import time
 
 # Declare the rows, columns, and keys of hte keypad
-rows = [Button(17), Button(25), Button(24), Button(23)]
-cols = [DigitalOutputDevice(27), DigitalOutputDevice(18),
+rows = [Button(18), Button(23), Button(24), Button(25)]
+cols = [DigitalOutputDevice(17), DigitalOutputDevice(27),
     DigitalOutputDevice(22)]
 keys = [
     ['1', '2', '3'],
